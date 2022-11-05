@@ -84,9 +84,9 @@ nav ul li a:hover{
 	background-color: #101010b8;
 	border: 3px solid transparent;
 	border-radius: 20px;
-	position: absolute;
-	top: 50%;
-	left:50%;
+	position: relative;
+	top: 30%;
+	left: 50%;
 	transform: translateY(-60%);
 
 }
