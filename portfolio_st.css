@@ -51,19 +51,24 @@ nav{
     letter-spacing: 2px;
     cursor: pointer;
 }
-nav ul li{
+.flex-container{
+	display: inline-flexbox;
+	flex-direction: row;
+	justify-content: center;
+}
+.li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
 	background-color:#c99008;
 	text-decoration: none;
 	color:#101010;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 10px 40px;
+	padding: 10px 20px;
+	margin-left: 5%;
 	border-radius: 30px;
 }
-nav ul li a{
+.li a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -130,6 +135,10 @@ span{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+.main img{
+	height: auto;
+	width: 40%;
 }
 .about-text h2{
 	padding-bottom: 0%;
